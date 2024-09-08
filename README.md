@@ -1,6 +1,4 @@
-# overwatch_herois
-# overwatch_herois
-# Overwatch 2 Character Search Website
+# Heróis Overwatch 2 
 
 ## 📜 Descrição do Projeto
 
