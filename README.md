@@ -24,6 +24,22 @@ Este projeto é um **site interativo** focado nos personagens do jogo *Overwatch
   - CSS3 para estilização e layout responsivo.
   - JavaScript para funcionalidades dinâmicas, como a busca e o botão de herói aleatório.
 
+## 🎨 Estilos e Layout
+
+O layout foi desenhado com foco em acessibilidade e responsividade, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops. O design utiliza:
+
+- **Fontes Google Fonts**: Para dar uma aparência moderna e adequada ao tema do jogo.
+- **Gradientes e Imagens Dinâmicas**: Que melhoram a imersão e interatividade.
+- **Elementos de Navegação Intuitivos**: Com menus fáceis de usar e ícones de redes sociais no rodapé.
+
+## 📧 Contato
+
+Para qualquer dúvida ou feedback, entre em contato:
+
+- **Email**: [lucas@heroisow.com.br](mailto:lucas@heroisow.com.br)
+- **GitHub**: [Kumegawwa](https://github.com/Kumegawwa)
+- **Instagram**: [kanezawa_lucas](https://www.instagram.com/kanezawa_lucas/)
+
 ## 📁 Estrutura de Pastas
 
 ```bash
@@ -38,17 +54,3 @@ Este projeto é um **site interativo** focado nos personagens do jogo *Overwatch
 |   |   |-- venture.png
 |-- index.html                 # Página principal do site
 |-- README.md                  # Documentação do projeto
-
-🎨 Estilos e Layout
-O layout foi desenhado com foco em acessibilidade e responsividade, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops. O design utiliza:
-
-Fontes Google Fonts para dar uma aparência moderna e adequada ao tema do jogo.
-Gradientes e Imagens Dinâmicas que melhoram a imersão e interatividade.
-Elementos de navegação intuitivos, com menus fáceis de usar e ícones de redes sociais no rodapé.
-📧 Contato
-Para qualquer dúvida ou feedback, entre em contato:
-
-Email: lucas@heroisow.com.br
-GitHub: Kumegawwa
-Instagram: kanezawa_lucas
-© 2024 Heróis Overwatch. Todos os direitos reservados. Este site foi criado como um projeto de fã, sem fins lucrativos.
