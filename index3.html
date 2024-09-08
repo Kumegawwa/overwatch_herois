@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style3.css">
+    <title>Heróis Overwatch</title>
+</head>
+<body>
+    <header>
+        </div>
+        <div class="header-content">
+            <h1>Heróis Overwatch</h1>
+            <nav>
+                <ul role="menubar" aria-label="Menu principal">
+                    <li role="menuitem"><a href="index3.html">Home</a></li>
+                    <li role="menuitem"><a href="#sobre">Sobre</a></li> <!-- Colocando a âncora para "Sobre" -->
+                    <li role="menuitem"><a href="#contato">Contato</a></li> <!-- Âncora para o rodapé -->
+                    <li role="menuitem" class="pesquisar">
+                        <button id="botao-pesquisar">Buscar Herói</button>
+                        <button id="botao-aleatorio">Herói Aleatório</button> <!-- Novo botão -->
+                    </li>
+                </ul>
+            </nav>
+            <section class="search-bar">
+                <input type="text" placeholder="Digite o nome do herói ou termo" id="campo-pesquisa" class="search-field">
+                <button class="btn-pesquisar" onclick="pesquisar()">Pesquisar</button>
+            </section>  
+            <div class="video-background">
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/1007260063?autoplay=1&loop=1&autopause=0&muted=1&app_id=58479" 
+                            frameborder="0" 
+                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                            title="Help Center Video">
+                    </iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+    </header>
+    <div class="content-container">
+        <main>
+            <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+            <section class="novas-heroinas">
+                <h2>NOVAS HERÓINAS</h2>
+                <p>Conheça as novas personagens disponíveis no game!</p>
+                <p>👇 Clique e conheça 👇</p>
+                <div class="novas-heroinas-imagens">
+                    <img title="Hello" src="/assets/images/juno2.png" onmouseover="this.src='/assets/images/juno.png'" onmouseout="this.src='/assets/images/juno2.png'" onclick="pesquisar('juno')"/>
+                    <img title="Hello" src="/assets/images/venture2.png" onmouseover="this.src='/assets/images/venture.png'" onmouseout="this.src='/assets/images/venture2.png'" onclick="pesquisar('venture')"/>
+                </div>
+            </section>    
+        </main>
+    </div>
+    <footer id="contato">
+        <p>Site desenvolvido por um entusiasta do jogo, sem objetivos lucrativos, com o propósito exclusivo de apresentar aos novos jogadores os personagens e habilidades dos heróis.</p>
+        <p>&copy; 2024 Heróis Overwatch. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: <a href="mailto:lucas@heroisow.com.br">lucas@heroisow.com.br</a></p>
+        <div class="footer-icons">
+            <a href="https://www.threads.net/@kanezawa_lucas" target="_blank" aria-label="Threads">
+                <img src="/assets/icons/threads.svg" alt="Ícone Threads">
+            </a>
+            <a href="https://github.com/Kumegawwa" target="_blank" aria-label="GitHub">
+                <img src="/assets/icons/github.svg" alt="Ícone GitHub">
+            </a>
+            <a href="https://www.instagram.com/kanezawa_lucas/" target="_blank" aria-label="Instagram">
+                <img src="/assets/icons/instagram.svg" alt="Ícone Instagram">
+            </a>
+        </div>
+    </footer>
+    <script src="/assets/scripts/dados3.js"></script>
+    <script src="/assets/scripts/app3.js"></script>
+</body>
+</html>
